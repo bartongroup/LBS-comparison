@@ -1,0 +1,13 @@
+name: lbs_comp_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - scipy
+  - scikit-learn
+  - biopython
+  - pandas
+  - seaborn
+  - matplotlib
+  - numpy

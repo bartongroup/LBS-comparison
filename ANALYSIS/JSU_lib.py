@@ -887,7 +887,7 @@ def get_sites_per_prot(combined_df):
     df = df[['origin', 'rep_chain', 'sites_per_prot']]  # Reorder columns
     return df
 
-def plot_normalised_stacked_bar(data, labels, ticklabs, title="Stacked Bar Plot", colors=None, legend_title=None):
+def plot_normalised_stacked_bar(data, labels, ticklabs, title="Stacked Bar Plot", colors=None, legend_title=None, DPI = 100, out = None):
     """
     Plots a stacked vertical bar plot for given lists of data where each bar's total height is normalized to 1.
 
@@ -909,7 +909,7 @@ def plot_normalised_stacked_bar(data, labels, ticklabs, title="Stacked Bar Plot"
     #    colors = plt.cm.viridis(np.linspace(0, 1, len(labels)))
 
     # Setting up the plot
-    fig, ax = plt.subplots(figsize = (5, 5))
+    fig, ax = plt.subplots(figsize = (5, 5), dpi = DPI)
     bar_width = 0.75
     indices = np.arange(data.shape[0])
     #print(indices)
@@ -928,8 +928,12 @@ def plot_normalised_stacked_bar(data, labels, ticklabs, title="Stacked Bar Plot"
     ax.set_xticks(indices)
     ax.set_xticklabels(ticklabs, rotation = 45)
     ax.set_ylim(0, 1)
-    plt.axhline(y = 0.5, linestyle = "--", color = "k")
+    plt.axhline(y = 0.5, linestyle = "--", color = "k", linewidth = 1)
+    plt.yticks([0, 0.25, 0.5, 0.75, 1])
     ax.legend(title=legend_title if legend_title else "Protein Group", bbox_to_anchor=(1.05, 1), loc='upper left')
+
+    if out != None:
+        plt.savefig(out)
 
     plt.show()
 

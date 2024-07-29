@@ -377,7 +377,7 @@ def plot_cumulative_data(df, figsize=(6, 6), dpi=150, xlim=(0, 100), ylim=(0, 50
     plt.xlim(*xlim)
     plt.ylim(*ylim)
     #plt.legend(title="Method", bbox_to_anchor=(1.05, 1), loc='upper left')
-    plt.legend().set_visible(True)
+    plt.legend().set_visible(False)
     if out != None:
         plt.savefig(out)
     
@@ -691,16 +691,8 @@ def plot_results_def_NEW_2cols(df, methods, fix_col1, fix_col2, fix_val1, fix_va
 
     plt.xlabel(var_col_label)
     plt.ylabel(ylabel)
-    # if var_col == "dist_t":
-    #     #leg = plt.legend(title='Method', title_fontsize='13', fontsize='11', loc='upper left', frameon=True)
-    #     leg = plt.legend(title="Method", bbox_to_anchor=(1.05, 1), loc='upper left')
-    #     leg.get_frame().set_edgecolor('black')
-    # else:
-    #     leg = plt.legend(title="Method", bbox_to_anchor=(1.05, 1), loc='upper left')
-        
-    #plt.legend().set_visible(False)
 
-    plt.legend().set_visible(True)
+    plt.legend().set_visible(False)
     
         
 
