@@ -49,10 +49,27 @@ or
 ProIntVar is used for some of the data processing. For installation instructions, refer here: [ProIntVar repository](https://github.com/bartongroup/ProIntVar/tree/JSU_branch).
 
 The following are dependencies that were used for preotein and ligand site characterisation and visualisation:
-- [POVME](https://github.com/durrantlab/POVME) [[REF]](https://pubs.acs.org/doi/10.1021/ct500381c)
-- [ProteinVolume](https://gmlab.bio.rpi.edu/PVolume.php)  [[REF]](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0531-2)
-- [freeSASA](https://freesasa.github.io/)  [[REF]](https://f1000research.com/articles/5-189/v1)
-- [ChimeraX](https://www.cgl.ucsf.edu/chimerax/)  [[REF]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7737788/)
-- [PyMol](https://pymol.org/support.html)  [[REF]](https://legacy.ccp4.ac.uk/newsletters/newsletter40/11_pymol.pdf)
+- [POVME](https://github.com/durrantlab/POVME) [[12]](https://pubs.acs.org/doi/10.1021/ct500381c)
+- [ProteinVolume](https://gmlab.bio.rpi.edu/PVolume.php)  [[13]](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0531-2)
+- [freeSASA](https://freesasa.github.io/)  [[14]](https://f1000research.com/articles/5-189/v1)
+- [ChimeraX](https://www.cgl.ucsf.edu/chimerax/)  [[15]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7737788/)
+- [PyMol](https://pymol.org/support.html)  [[16]](https://legacy.ccp4.ac.uk/newsletters/newsletter40/11_pymol.pdf)
 
 ## References
+
+1. Sestak, F., et al., VN-EGNN: E(3)-Equivariant Graph Neural Networks with Virtual Nodes Enhance Protein Binding Site Identification. arXiv [cs.LG], 2024.
+2. Carbery, A., et al., Learnt representations of proteins can be used for accurate prediction of small molecule binding sites on experimentally determined and predicted protein structures. J Cheminform, 2024. 16(1): p. 32.
+3. Smith, Z., et al., Graph Attention Site Prediction (GrASP): Identifying Druggable Binding Sites Using Graph Neural Networks with Attention. J Chem Inf Model, 2024. 64(7): p. 2637-2644.
+4. Jeevan, K., et al., PUResNetV2.0: a deep learning model leveraging sparse representation for improved ligand binding site prediction. Journal of Cheminformatics, 2024. 16(1): p. 66.
+5. Aggarwal, R., et al., DeepPocket: Ligand Binding Site Detection and Segmentation using 3D Convolutional Neural Networks. J Chem Inf Model, 2022. 62(21): p. 5069-5079.
+6. Jendele, L., et al., PrankWeb: a web server for ligand binding site prediction and visualization. Nucleic Acids Res, 2019. 47(W1): p. W345-W349.
+7. Krivak, R. and D. Hoksza, P2Rank: machine learning based tool for rapid and accurate prediction of ligand binding sites from protein structure. J Cheminform, 2018. 10(1): p. 39.
+8. Le Guilloux, V., P. Schmidtke, and P. Tuffery, Fpocket: an open source platform for ligand pocket detection. BMC Bioinformatics, 2009. 10: p. 168.
+9. An, J., M. Totrov, and R. Abagyan, Pocketome via comprehensive identification and classification of ligand binding envelopes. Mol Cell Proteomics, 2005. 4(6): p. 752-61.
+10. Hendlich, M., F. Rippmann, and G. Barnickel, LIGSITE: automatic and efficient detection of potential small molecule-binding sites in proteins. J Mol Graph Model, 1997. 15(6): p. 359-63, 389.
+11. Laskowski, R.A., SURFNET: a program for visualizing molecular surfaces, cavities, and intermolecular interactions. J Mol Graph, 1995. 13(5): p. 323-30, 307-8.
+12. Durrant, J.D., et al., POVME 2.0: An Enhanced Tool for Determining Pocket Shape and Volume Characteristics. J Chem Theory Comput, 2014. 10(11): p. 5047-5056.
+13. Chen, C.R. and G.I. Makhatadze, ProteinVolume: calculating molecular van der Waals and void volumes in proteins. BMC Bioinformatics, 2015. 16(1): p. 101.
+14. Mitternacht, S., FreeSASA: An open source C library for solvent accessible surface area calculations. F1000Res, 2016. 5: p. 189.
+15. Pettersen, E.F., et al., UCSF ChimeraX: Structure visualization for researchers, educators, and developers. Protein Sci, 2021. 30(1): p. 70-82.
+16. Schrödinger, L.L.C., The PyMOL Molecular Graphics System, Version 1.8. 2015.
