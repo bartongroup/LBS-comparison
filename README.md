@@ -2,6 +2,8 @@
 
 This is the GitHub repository underlying the analysis for our manuscript "_Comparative analysis of methods for the prediction of protein-ligand binding sites_", which can be found [here](insert_ref).
 
+[![DOI](https://zenodo.org/badge/826254471.svg)](https://zenodo.org/doi/10.5281/zenodo.13171100)
+
 In this work, we gather 11 ligand binding site predictors, spanning 30 years, focusing on the latest machine learning based methods, such as VN-EGNN, IF-SitePred, GrASP, PUResNet, and DeepPocket and comparing them to established methods such as P2Rank or fpocket and earlier methods such PocketFinder, Ligsite and Surfnet. We compare these eleven methods thoroughly and benchmark them against our curated reference dataset, LIGYSIS, to perform an objective assessment of their prediction capabilities. An informed ranking of the methods, as well as a series of reflections and guidelines to advance this field result as conclusions of this analysis, which represents the most thorough analytical comparison of ligand binding site prediction methods to date, offering a clear framework for future developments in the field of ligand binding site prediction.
 
 ![This is the Graphical Abstract](./GRAPHICAL_ABSTRACT.png)
