@@ -19,17 +19,20 @@ In this work, we compared the performance of eleven ligand binding site predicti
 2. [IF-SitePred](https://github.com/annacarbery/binding-sites)  [[2]](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-024-00821-4)
 3. [GrASP](https://github.com/tiwarylab/GrASP)  [[3]](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.3c01698)
 4. [PUResNet](https://github.com/jivankandel/PUResNetV2.0)  [[4]](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-024-00865-6)
-5. [DeepPocket](https://github.com/devalab/DeepPocket)  [[5]](https://pubs.acs.org/doi/10.1021/acs.jcim.1c00799)
-6. P2Rank<sub>Cons</sub>  [[6]](https://academic.oup.com/nar/article/50/W1/W593/6591527)
-7. [P2Rank](https://github.com/rdk/p2rank)  [[7]](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-018-0285-8)
-8. [fpocket](https://github.com/Discngine/fpocket) [[8]](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-10-168)
-9. [PocketFinder<sup>+</sup>](https://compbio.cs.princeton.edu/concavity/)  [[9]](https://pubmed.ncbi.nlm.nih.gov/15757999/)
-10. [Ligsite<sup>+</sup>](https://compbio.cs.princeton.edu/concavity/)  [[10]](https://pubmed.ncbi.nlm.nih.gov/9704298/#:~:text=Using%20a%20set%20of%20receptor,of%20LIGSITE%20is%20its%20speed.)
-11. [Surfnet<sup>+</sup>](https://compbio.cs.princeton.edu/concavity/)  [[11]](https://pubmed.ncbi.nlm.nih.gov/8603061/)
+5. [DeepPocket<sub>RESC</sub>](https://github.com/devalab/DeepPocket)  [[5]](https://pubs.acs.org/doi/10.1021/acs.jcim.1c00799)
+6. DeepPocket<sub>SEG</sub>
+7. P2Rank<sub>CONS</sub>  [[6]](https://academic.oup.com/nar/article/50/W1/W593/6591527)
+8. [P2Rank](https://github.com/rdk/p2rank)  [[7]](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-018-0285-8)
+9. [fpocket](https://github.com/Discngine/fpocket) [[8]](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-10-168)
+10. [PocketFinder<sup>+</sup>](https://compbio.cs.princeton.edu/concavity/)  [[9]](https://pubmed.ncbi.nlm.nih.gov/15757999/)
+11. [Ligsite<sup>+</sup>](https://compbio.cs.princeton.edu/concavity/)  [[10]](https://pubmed.ncbi.nlm.nih.gov/9704298/#:~:text=Using%20a%20set%20of%20receptor,of%20LIGSITE%20is%20its%20speed.)
+12. [Surfnet<sup>+</sup>](https://compbio.cs.princeton.edu/concavity/)  [[11]](https://pubmed.ncbi.nlm.nih.gov/8603061/)
 
-P2Rank<sub>Cons</sub> is the same programme as P2Rank, but passing an extra argument which contains evolutionary conservation information of the target protein.
+P2Rank<sub>CONS</sub> is the same programme as P2Rank, but passing an extra argument which contains evolutionary conservation information of the target protein.
 
-Methods 9-11 represent the implementations by Capra, _et al._, 2009, [[12]](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000585) and are therefore indicated by the <sup>+</sup> superindex.
+DeepPocket<sub>RESC</sub> corresponds to the default DeepPocket implementation, i.e., re-scored and re-ranked fpocket predictions. DeepPocket<sub>SEG</sub> represents the pocket shapes extracted from the DeepPocket CNN segmentation module. These predictions were obtained by removing the `-r  3` flag, and so pocket shapes were extracted for all pockets, and not just the top-3.
+
+Methods 10-12 represent the implementations by Capra, _et al._, 2009, [[12]](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000585) and are therefore indicated by the <sup>+</sup> superindex.
 
 ### Analysis
 
