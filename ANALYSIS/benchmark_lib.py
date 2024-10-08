@@ -750,7 +750,7 @@ palette = {
     'P2Rank+Cons': 'magenta',
     'P2Rank': 'orange',
     'fpocket+PRANK+Cons': 'gray',
-    'fpocket+PRANK': 'gray',
+    'fpocket+PRANK': 'black',
     'fpocket': 'gray',
     'PocketFinder': 'blue',
     'PocketFinder-AA': 'blue',
@@ -785,8 +785,8 @@ markers_dict = {
     "DeepPocket-Rescored": 'h',
     "P2Rank+Cons": 'v',
     "P2Rank": '^',
-    'fpocket+PRANK+Cons': 'o',
-    "fpocket+PRANK": 'o',
+    'fpocket+PRANK+Cons': '.',
+    "fpocket+PRANK": '.',
     "fpocket": 'o',
     "PocketFinder": '*',
     "PocketFinder-AA": "*",
@@ -827,7 +827,8 @@ linestyles_dict = {
     "P2Rank+Cons": '',                       ## no variants
     "P2Rank": '',                            ## no variants
     "fpocket+PRANK+Cons": (1, 1),
-    "fpocket+PRANK": (3, 1, 1, 1),           ## no variants
+    #"fpocket+PRANK": (3, 1, 1, 1),           ## no variants
+    "fpocket+PRANK": '',                     ## no variants
     "fpocket": '',                           ## no variants
 
     "PocketFinder": '',
@@ -873,6 +874,7 @@ linestyles_dict2 = {
 
     "fpocket+PRANK+Cons": (0, (1, 1)),
     "fpocket+PRANK": (0, (3, 1, 1, 1)),           ## no variants
+    "fpocket+PRANK": (0, ()),                     ## no variants
     "fpocket": (0, ()),                           ## no variants
 
     "PocketFinder": (0, ()),
