@@ -29,7 +29,7 @@ In this work, we compared the performance of eleven ligand binding site predicti
 12. [Ligsite<sup>+</sup>](https://compbio.cs.princeton.edu/concavity/)  [[11]](https://pubmed.ncbi.nlm.nih.gov/9704298/#:~:text=Using%20a%20set%20of%20receptor,of%20LIGSITE%20is%20its%20speed.)
 13. [Surfnet<sup>+</sup>](https://compbio.cs.princeton.edu/concavity/)  [[12]](https://pubmed.ncbi.nlm.nih.gov/8603061/)
 
-P2Rank<sub>CONS</sub> is the same programme as [P2Rank](https://academic.oup.com/nar/article/50/W1/W593/6591527), but passing an extra argument which contains evolutionary conservation information of the target protein. This can be done through the [PRANK web server]() or locally after deployinw P2Rank with Docker. Instructions found [here](https://github.com/cusbg/p2rank-framework/wiki/P2Rank-deploy-with-Docker). 
+P2Rank<sub>CONS</sub> is the same programme as [P2Rank](https://academic.oup.com/nar/article/50/W1/W593/6591527), but passing an extra argument which contains evolutionary conservation information of the target protein. This can be done through the [PRANK web server](https://prankweb.cz/) or locally after deployinw P2Rank with Docker. Instructions found [here](https://github.com/cusbg/p2rank-framework/wiki/P2Rank-deploy-with-Docker). 
 
 fpocket<sub>PRANK</sub> are [fpocket](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-10-168) prdictions re-scored with [PRANK](https://link.springer.com/article/10.1186/s13321-015-0059-5).
 
